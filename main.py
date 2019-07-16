@@ -61,3 +61,6 @@ for i, img_path in enumerate(next_cat_pix+next_dog_pix):
   plt.imshow(img)
 
 plt.show()
+
+from tensorflow.keras import layers
+from tensorflow.keras import Model
